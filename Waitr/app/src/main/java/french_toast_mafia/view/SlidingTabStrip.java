@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package french_toast_mafia.common.view;
+package french_toast_mafia.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

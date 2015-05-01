@@ -25,24 +25,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import french_toast_mafia.common.view.SlidingTabLayout;
+import french_toast_mafia.view.SlidingTabLayout;
 
 public class SlidingTabsBasicFragment extends Fragment {
 
   private SlidingTabLayout mSlidingTabLayout;
   private ViewPager mViewPager;
 
-  /**
-   * Inflates the {@link android.view.View} which will be displayed by this {@link android.support.v4.app.Fragment}, from the app's
-   * resources.
-   */
   @Override
-  public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                           Bundle savedInstanceState) {
+  public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
     return inflater.inflate(R.layout.fragment_sample, container, false);
   }
-
-  // BEGIN_INCLUDE (fragment_onviewcreated)
 
   /**
    * This is called after the {@link #onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)} has finished.
